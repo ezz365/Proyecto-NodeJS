@@ -21,7 +21,7 @@ class ProductManager {
             description,
             price: price + this.#precioBaseDeGanancia,
             thumbnail,
-            stock,
+            stock, 
         }
     //Se pushean los productos
     this.products.push(product)
